@@ -3,7 +3,7 @@
 Official self-contained reproducibility package for:
 > **Reconciling Parallel Linguistic Architectures with Deep Representation Learning: Pre-LayerNorm Gated Bilinear Cross-Stream Interaction Across Psycholinguistic and Minimal-Pair Benchmarks**  
 > **Author:** Siva Phanindra Daggubati (Department of Computer Science, SGK Government Degree College, Vinukonda, Palnadu Dt., Andhra Pradesh, India; )  
-> **Release URL:** [https://github.com/daggubatisivaphanindra/preln-rgca/releases/tag/v1.0.0](https://github.com/daggubatisivaphanindra/preln-rgca/releases/tag/v1.0.0)
+>
 
 ## Quickstart & One-Command Reproducibility (Relative Paths Only)
 
