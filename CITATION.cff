@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software or benchmark suite, please cite it as below."
+authors:
+  - family-names: "Daggubati"
+    given-names: "Siva Phanindra"
+    affiliation: "Department of Computer Science, SGK Government Degree College, Vinukonda, Palnadu Dt., Andhra Pradesh, India"
+    email: "daggubatisivaphanindra@gmail.com"
+title: "PreLN-RGCA: Pre-LayerNorm Residual Gated Cross-Stream Architecture"
+version: 1.0.0
+date-released: 2026-10-22
+url: "https://github.com/daggubatisivaphanindra/preln-rgca/releases/tag/v1.0.0"
