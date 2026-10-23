@@ -1,0 +1,13 @@
+Configuration / Model Variant,ON99 4-Class Acc (%) [Mean ± SD],ON99 Student-t 95% CI,KO05 3-Label Acc (%) [Mean ± SD],BLiMP Pairwise Acc (%) [Mean ± SD],CoLA MCC (x100) [Mean ± SD],External Naturalistic Acc (%) [Mean ± SD],Internal Paired t-test vs. Full PreLN-RGCA (ON99)
+1. Full PreLN-RGCA (Proposed),99.44 ± 0.97,"[98.75, 100.14]",98.61 ± 2.36,99.75 ± 0.79,94.83 ± 6.62,99.79 ± 0.66,Reference (Proposed)
+2. Ablation: No Learnable Gating (Fixed G=0.50),93.06 ± 5.82,"[88.89, 97.22]",95.97 ± 3.55,99.00 ± 1.75,79.77 ± 6.46,96.88 ± 2.64,"t = 3.63, p = 0.0055 (-6.39 pp)"
+3. Ablation: No Interlock Product (p_inter=0),93.19 ± 4.11,"[90.25, 96.14]",84.31 ± 10.78,95.00 ± 5.40,74.53 ± 14.43,97.71 ± 1.54,"t = 5.32, p = 0.0005 (-6.25 pp)"
+4. Ablation: Post-LN Variant,89.03 ± 7.98,"[83.32, 94.73]",76.81 ± 9.19,87.75 ± 8.12,61.94 ± 4.38,93.96 ± 3.32,"t = 4.10, p = 0.0027 (-10.42 pp)"
+5. Ablation: Fixed-Offset Alignment (t-2),82.36 ± 4.09,"[79.43, 85.29]",73.75 ± 6.36,87.75 ± 6.06,68.16 ± 10.95,95.21 ± 1.98,"t = 15.05, p = 0.0000 (-17.08 pp)"
+6. Ablation: No Cross-Stream Interaction (C_m=0),72.50 ± 2.99,"[70.36, 74.64]",60.83 ± 5.99,70.50 ± 3.50,46.58 ± 8.59,90.83 ± 2.98,"t = 25.42, p = 0.0000 (-26.94 pp)"
+7. Internal Control: Single-Stream Control,76.39 ± 1.85,"[75.06, 77.71]",69.86 ± 5.16,73.50 ± 4.89,44.26 ± 13.30,99.38 ± 1.01,"t = 36.71, p = 0.0000 (-23.06 pp)"
+8. Sanity Control: Linear Bag-of-Features,51.11 ± 4.53,"[47.87, 54.35]",55.42 ± 8.82,74.25 ± 3.92,54.20 ± 4.19,68.12 ± 3.41,"t = 34.12, p = 0.0000 (-48.33 pp)"
+9. Heuristic Symbolic Rule Baseline (Train-Induced),100.00 (det.),Deterministic,100.00 (det.),100.00 (det.),100.00 (det.),77.08 (det.),Strict OOV ON99 = 65.28% (nearest-noun heuristic)
+"10. Alignment-Matched Symbolic Baseline (A_struct Matched, Train-Induced)",100.00 (det.),Deterministic,100.00 (det.),100.00 (det.),100.00 (det.),91.67 (det.),Strict OOV ON99 = 54.17%; drops to 91.67% on authentic syntax
+11. Alignment-Matched Symbolic Upper Bound (Oracle Lexicon),100.00 (oracle),Deterministic,88.89 (oracle),100.00 (oracle),100.00 (oracle),77.08 (oracle),Solves templated items (100%); drops to 77.08% on authentic natural language
+"12. Strict OOV Unseen-Lexeme Control (PreLN-RGCA, Zero Prior)",79.31 ± 8.45,"[73.26, 85.35]",—,—,—,—,Matches ~75% theoretical bound when test nouns are 100% unseen OOV

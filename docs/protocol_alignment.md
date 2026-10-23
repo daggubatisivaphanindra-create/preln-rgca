@@ -1,0 +1,5 @@
+# Experimental Protocol & Audit Alignment
+
+- **Cross-Study Comparison vs. Internal Controls**: Published results from [Michalon & Baggio (2026)](https://doi.org/10.1080/0952813X.2026.2633150) are presented in descriptive comparison tables (Tables 2A and 2B) with explicit comparability notes regarding our strictly frame-disjoint partitions (`240/48/72` on ON99 and `264/48/72` on KO05) versus their item-level random partitions (`251/36/73` and `268/39/77`).
+- **Training-Only Distributional Embeddings vs. Strict OOV Control**: Primary neural experiments estimate `W_sem` exclusively from each run's training split (`tr_idx`) via co-occurrence statistics without prescribed semantic category lists. A separate Strict OOV Disjoint-Lexeme Control (`ON99_Strict_OOV`) evaluates held-out test nouns that have zero training exposure.
+- **Alignment-Matched Symbolic Baseline**: Evaluated under both Training-Split Induced Lexicon and Oracle Lexicon alongside all neural configurations using the exact same structural alignment matrix `A_struct`.

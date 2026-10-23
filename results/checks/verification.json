@@ -1,0 +1,82 @@
+{
+  "modular_repo_and_relative_paths": {
+    "status": "PASS",
+    "verified_files_count": 14,
+    "hardcoded_container_paths": 0
+  },
+  "zero_lexical_frame_leakage": true,
+  "split_frame_audit": {
+    "ON99": {
+      "total_lexical_frames": 15,
+      "frames_appearing_in_multiple_splits": 0,
+      "seeds_checked": 1
+    },
+    "KO05": {
+      "total_lexical_frames": 16,
+      "frames_appearing_in_multiple_splits": 0,
+      "seeds_checked": 1
+    },
+    "BLiMP": {
+      "total_lexical_frames": 25,
+      "frames_appearing_in_multiple_splits": 0,
+      "seeds_checked": 1
+    },
+    "CoLA": {
+      "total_lexical_frames": 25,
+      "frames_appearing_in_multiple_splits": 0,
+      "seeds_checked": 1
+    },
+    "External_Naturalistic": {
+      "total_lexical_frames": 20,
+      "frames_appearing_in_multiple_splits": 0,
+      "seeds_checked": 1
+    }
+  },
+  "surface_stimulus_integrity": {
+    "status": "PASS",
+    "conflicting_surface_sequences_per_dataset": {
+      "ON99": 0,
+      "KO05": 0,
+      "BLiMP_MinimalPairs": 0,
+      "CoLA_Binary": 0,
+      "External_Naturalistic": 0
+    },
+    "unique_surface_sequences_per_dataset": {
+      "ON99": 360,
+      "KO05": 384,
+      "BLiMP_MinimalPairs": 200,
+      "CoLA_Binary": 400,
+      "External_Naturalistic": 240
+    },
+    "surface_to_tag_mismatches": 0
+  },
+  "numerical_and_checkpoint_consistency": {
+    "status": "PASS",
+    "verified_seed_runs": 50,
+    "verified_npz_checkpoints": 50,
+    "max_accuracy_discrepancy": 0.0
+  },
+  "single_mechanism_ablation_isolation": {
+    "status": "PASS",
+    "identical_initialization_across_modes": true,
+    "unconfounded_alignment_matrix_verified": true
+  },
+  "parameter_introspection": {
+    "ON99_4class": {
+      "trainable": 10252,
+      "frozen": 4464,
+      "total": 14716
+    },
+    "KO05_3label": {
+      "trainable": 10227,
+      "frozen": 4464,
+      "total": 14691
+    },
+    "BLiMP_CoLA_2logit": {
+      "trainable": 10202,
+      "frozen": 4464,
+      "total": 14666
+    }
+  },
+  "final_state": "PASS"
+}

@@ -1,0 +1,5 @@
+ON99 Condition,Published M&B (2026) CNN fastText (P / R / F1),Published M&B (2026) RoBERTa Single-Stream (P / R / F1),Published M&B (2026) RoBERTa Dual-Stream (P / R / F1),Proposed PreLN-RGCA Precision (Mean ± SD),Proposed PreLN-RGCA Recall (Mean ± SD),Proposed PreLN-RGCA F1 (Mean ± SD),Descriptive F1 Diff vs. Published Dual-Stream (pp)
+NAC (NA),46.56 / 31.79 / 36.85,89.47 / 89.47 / 89.47,95.00 / 87.37 / 90.60,98.42 ± 2.54,100.00 ± 0.00,99.19 ± 1.31,+8.59 pp (descriptive)
+SyA (Sy),53.14 / 47.53 / 50.00,88.73 / 86.22 / 87.30,89.91 / 72.76 / 79.93,100.00 ± 0.00,99.44 ± 1.76,99.71 ± 0.90,+19.78 pp (descriptive)
+SeA (Se),35.72 / 22.88 / 27.96,86.51 / 84.02 / 85.23,84.06 / 94.74 / 88.37,99.44 ± 1.76,98.33 ± 2.68,98.87 ± 1.96,+10.50 pp (descriptive)
+SSA (SS),49.69 / 66.11 / 56.71,82.68 / 87.78 / 85.07,75.44 / 91.11 / 82.14,100.00 ± 0.00,100.00 ± 0.00,100.00 ± 0.00,+17.86 pp (descriptive)

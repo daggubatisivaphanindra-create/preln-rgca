@@ -1,0 +1,4 @@
+KO05 Condition (3-Label Mapping),Published M&B (2026) CNN fastText (P / R / F1),Published M&B (2026) RoBERTa Single-Stream (P / R / F1),Published M&B (2026) RoBERTa Dual-Stream (P / R / F1),Proposed PreLN-RGCA Precision (Mean ± SD),Proposed PreLN-RGCA Recall (Mean ± SD),Proposed PreLN-RGCA F1 (Mean ± SD),Descriptive F1 Diff vs. Published Dual-Stream (pp)
+AC/PC Controls (NA),89.29 / 65.79 / 75.75,96.77 / 96.77 / 96.77,96.87 / 100.00 / 98.41,98.66 ± 2.53,98.61 ± 3.53,98.60 ± 2.42,+0.19 pp (descriptive)
+Attraction Violation AV (Sy),31.58 / 30.00 / 30.77,88.46 / 92.00 / 90.20,91.30 / 84.00 / 87.50,97.57 ± 6.07,97.22 ± 5.40,97.25 ± 4.56,+9.75 pp (descriptive)
+No-Attraction Violation NAV (Se),25.00 / 31.58 / 27.91,90.00 / 85.71 / 87.80,81.82 / 85.71 / 83.72,100.00 ± 0.00,100.00 ± 0.00,100.00 ± 0.00,+16.28 pp (descriptive)

@@ -1,0 +1,10 @@
+Component / Module,Tensor Shapes,ON99 / Ext (C=4),KO05 (C=3),BLiMP (Pairwise),CoLA (Binary MCC),Trainable Status
+Training-Only SVD Lexical Embeddings (W_sem),186 x 24,"4,464","4,464","4,464","4,464",Frozen (Training-Only SVD)
+Morphosyntactic Tag Embeddings (W_syn),12 x 24,288,288,288,288,Trainable (PAD row zeroed)
+"Within-Stream Contextual Ops (W_q,k,o x 2)",6 x (24 x 24),"3,456","3,456","3,456","3,456",Trainable
+"Cross-Stream Bilinear Ops (W_qc,kc x 2)",4 x (24 x 24),"2,304","2,304","2,304","2,304",Trainable
+"Sigmoidal Highway Gates (W_g, b_g x 2)",2 x (48 x 24 + 24),"2,352","2,352","2,352","2,352",Trainable
+"Interlock Projection (W_proj, b_proj)",72 x 24 + 24,"1,752","1,752","1,752","1,752",Trainable
+"Task-Specific Output Head (W_cls, b_cls)",24 x C + C,100 (C=4),75 (C=3),50 (C=2),50 (C=2),Trainable
+Total Trainable Parameters,Introspected from code,"10,252","10,227","10,202","10,202",Verified Exact
+Total Parameters (Incl. Frozen W_sem),Introspected from code,"14,716","14,691","14,666","14,666",Verified Exact

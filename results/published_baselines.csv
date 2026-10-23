@@ -1,0 +1,85 @@
+source_article,source_table,dataset,condition,published_model,metric,published_value,scale,notes
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 2 (p. 299),ON99,NAC (NA),CNN no pretraining,Precision,28.82,percentage,Average over 2 runs (251 train / 36 val / 73 test)
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 2 (p. 299),ON99,NAC (NA),CNN no pretraining,Recall,21.9,percentage,Average over 2 runs (251 train / 36 val / 73 test)
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 2 (p. 299),ON99,NAC (NA),CNN no pretraining,F1,24.85,percentage,Average over 2 runs (251 train / 36 val / 73 test)
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 2 (p. 299),ON99,SyA (Sy),CNN no pretraining,Precision,43.53,percentage,Average over 2 runs
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 2 (p. 299),ON99,SyA (Sy),CNN no pretraining,Recall,38.7,percentage,Average over 2 runs
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 2 (p. 299),ON99,SyA (Sy),CNN no pretraining,F1,40.97,percentage,Average over 2 runs
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 2 (p. 299),ON99,SeA (Se),CNN no pretraining,Precision,10.1,percentage,Average over 2 runs
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 2 (p. 299),ON99,SeA (Se),CNN no pretraining,Recall,9.78,percentage,Average over 2 runs
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 2 (p. 299),ON99,SeA (Se),CNN no pretraining,F1,9.79,percentage,Average over 2 runs
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 2 (p. 299),ON99,SSA (SS),CNN no pretraining,Precision,40.58,percentage,Average over 2 runs
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 2 (p. 299),ON99,SSA (SS),CNN no pretraining,Recall,53.89,percentage,Average over 2 runs
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 2 (p. 299),ON99,SSA (SS),CNN no pretraining,F1,46.28,percentage,Average over 2 runs
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 2 (p. 299),ON99,NAC (NA),CNN fastText,Precision,46.56,percentage,Average over 2 runs
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 2 (p. 299),ON99,NAC (NA),CNN fastText,Recall,31.79,percentage,Average over 2 runs
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 2 (p. 299),ON99,NAC (NA),CNN fastText,F1,36.85,percentage,Average over 2 runs
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 2 (p. 299),ON99,SyA (Sy),CNN fastText,Precision,53.14,percentage,Average over 2 runs
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 2 (p. 299),ON99,SyA (Sy),CNN fastText,Recall,47.53,percentage,Average over 2 runs
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 2 (p. 299),ON99,SyA (Sy),CNN fastText,F1,50.0,percentage,Average over 2 runs
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 2 (p. 299),ON99,SeA (Se),CNN fastText,Precision,35.72,percentage,Average over 2 runs
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 2 (p. 299),ON99,SeA (Se),CNN fastText,Recall,22.88,percentage,Average over 2 runs
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 2 (p. 299),ON99,SeA (Se),CNN fastText,F1,27.96,percentage,Average over 2 runs
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 2 (p. 299),ON99,SSA (SS),CNN fastText,Precision,49.69,percentage,Average over 2 runs
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 2 (p. 299),ON99,SSA (SS),CNN fastText,Recall,66.11,percentage,Average over 2 runs
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 2 (p. 299),ON99,SSA (SS),CNN fastText,F1,56.71,percentage,Average over 2 runs
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 2 (p. 299),ON99,NAC (NA),RoBERTa single-stream,Precision,89.47,percentage,Single-stream RoBERTa+CNN classifier
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 2 (p. 299),ON99,NAC (NA),RoBERTa single-stream,Recall,89.47,percentage,Single-stream RoBERTa+CNN classifier
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 2 (p. 299),ON99,NAC (NA),RoBERTa single-stream,F1,89.47,percentage,Single-stream RoBERTa+CNN classifier
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 2 (p. 299),ON99,SyA (Sy),RoBERTa single-stream,Precision,88.73,percentage,Single-stream RoBERTa+CNN classifier
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 2 (p. 299),ON99,SyA (Sy),RoBERTa single-stream,Recall,86.22,percentage,Single-stream RoBERTa+CNN classifier
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 2 (p. 299),ON99,SyA (Sy),RoBERTa single-stream,F1,87.3,percentage,Single-stream RoBERTa+CNN classifier
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 2 (p. 299),ON99,SeA (Se),RoBERTa single-stream,Precision,86.51,percentage,Single-stream RoBERTa+CNN classifier
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 2 (p. 299),ON99,SeA (Se),RoBERTa single-stream,Recall,84.02,percentage,Single-stream RoBERTa+CNN classifier
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 2 (p. 299),ON99,SeA (Se),RoBERTa single-stream,F1,85.23,percentage,Single-stream RoBERTa+CNN classifier
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 2 (p. 299),ON99,SSA (SS),RoBERTa single-stream,Precision,82.68,percentage,Single-stream RoBERTa+CNN classifier
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 2 (p. 299),ON99,SSA (SS),RoBERTa single-stream,Recall,87.78,percentage,Single-stream RoBERTa+CNN classifier
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 2 (p. 299),ON99,SSA (SS),RoBERTa single-stream,F1,85.07,percentage,Single-stream RoBERTa+CNN classifier
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 2 (p. 299),ON99,NAC (NA),RoBERTa dual-stream,Precision,95.0,percentage,Independent RoBERTa syntax+semantics classifiers with Boolean rule aggregation
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 2 (p. 299),ON99,NAC (NA),RoBERTa dual-stream,Recall,87.37,percentage,Independent RoBERTa syntax+semantics classifiers with Boolean rule aggregation
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 2 (p. 299),ON99,NAC (NA),RoBERTa dual-stream,F1,90.6,percentage,Independent RoBERTa syntax+semantics classifiers with Boolean rule aggregation
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 2 (p. 299),ON99,SyA (Sy),RoBERTa dual-stream,Precision,89.91,percentage,Independent RoBERTa syntax+semantics classifiers with Boolean rule aggregation
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 2 (p. 299),ON99,SyA (Sy),RoBERTa dual-stream,Recall,72.76,percentage,Independent RoBERTa syntax+semantics classifiers with Boolean rule aggregation
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 2 (p. 299),ON99,SyA (Sy),RoBERTa dual-stream,F1,79.93,percentage,Independent RoBERTa syntax+semantics classifiers with Boolean rule aggregation
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 2 (p. 299),ON99,SeA (Se),RoBERTa dual-stream,Precision,84.06,percentage,Independent RoBERTa syntax+semantics classifiers with Boolean rule aggregation
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 2 (p. 299),ON99,SeA (Se),RoBERTa dual-stream,Recall,94.74,percentage,Independent RoBERTa syntax+semantics classifiers with Boolean rule aggregation
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 2 (p. 299),ON99,SeA (Se),RoBERTa dual-stream,F1,88.37,percentage,Independent RoBERTa syntax+semantics classifiers with Boolean rule aggregation
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 2 (p. 299),ON99,SSA (SS),RoBERTa dual-stream,Precision,75.44,percentage,Independent RoBERTa syntax+semantics classifiers with Boolean rule aggregation
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 2 (p. 299),ON99,SSA (SS),RoBERTa dual-stream,Recall,91.11,percentage,Independent RoBERTa syntax+semantics classifiers with Boolean rule aggregation
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 2 (p. 299),ON99,SSA (SS),RoBERTa dual-stream,F1,82.14,percentage,Independent RoBERTa syntax+semantics classifiers with Boolean rule aggregation
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 4 (p. 301),KO05,AC/PC (NA),CNN no pretraining,Precision,22.86,percentage,Merged Active and Passive Controls -> NA (268 train / 39 val / 77 test)
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 4 (p. 301),KO05,AC/PC (NA),CNN no pretraining,Recall,25.81,percentage,Merged Active and Passive Controls -> NA
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 4 (p. 301),KO05,AC/PC (NA),CNN no pretraining,F1,24.24,percentage,Merged Active and Passive Controls -> NA
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 4 (p. 301),KO05,AV (Sy),CNN no pretraining,Precision,50.0,percentage,Attraction Violation -> Sy
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 4 (p. 301),KO05,AV (Sy),CNN no pretraining,Recall,16.0,percentage,Attraction Violation -> Sy
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 4 (p. 301),KO05,AV (Sy),CNN no pretraining,F1,24.24,percentage,Attraction Violation -> Sy
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 4 (p. 301),KO05,NAV (Se),CNN no pretraining,Precision,0.0,percentage,No-Attraction Violation -> Se
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 4 (p. 301),KO05,NAV (Se),CNN no pretraining,Recall,0.0,percentage,No-Attraction Violation -> Se
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 4 (p. 301),KO05,NAV (Se),CNN no pretraining,F1,0.0,percentage,No-Attraction Violation -> Se
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 4 (p. 301),KO05,AC/PC (NA),CNN fastText,Precision,89.29,percentage,Merged Active and Passive Controls -> NA
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 4 (p. 301),KO05,AC/PC (NA),CNN fastText,Recall,65.79,percentage,Merged Active and Passive Controls -> NA
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 4 (p. 301),KO05,AC/PC (NA),CNN fastText,F1,75.75,percentage,Merged Active and Passive Controls -> NA
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 4 (p. 301),KO05,AV (Sy),CNN fastText,Precision,31.58,percentage,Attraction Violation -> Sy
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 4 (p. 301),KO05,AV (Sy),CNN fastText,Recall,30.0,percentage,Attraction Violation -> Sy
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 4 (p. 301),KO05,AV (Sy),CNN fastText,F1,30.77,percentage,Attraction Violation -> Sy
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 4 (p. 301),KO05,NAV (Se),CNN fastText,Precision,25.0,percentage,No-Attraction Violation -> Se
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 4 (p. 301),KO05,NAV (Se),CNN fastText,Recall,31.58,percentage,No-Attraction Violation -> Se
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 4 (p. 301),KO05,NAV (Se),CNN fastText,F1,27.91,percentage,No-Attraction Violation -> Se
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 4 (p. 301),KO05,AC/PC (NA),RoBERTa single-stream,Precision,96.77,percentage,Single-stream RoBERTa+CNN classifier
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 4 (p. 301),KO05,AC/PC (NA),RoBERTa single-stream,Recall,96.77,percentage,Single-stream RoBERTa+CNN classifier
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 4 (p. 301),KO05,AC/PC (NA),RoBERTa single-stream,F1,96.77,percentage,Single-stream RoBERTa+CNN classifier
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 4 (p. 301),KO05,AV (Sy),RoBERTa single-stream,Precision,88.46,percentage,Single-stream RoBERTa+CNN classifier
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 4 (p. 301),KO05,AV (Sy),RoBERTa single-stream,Recall,92.0,percentage,Single-stream RoBERTa+CNN classifier
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 4 (p. 301),KO05,AV (Sy),RoBERTa single-stream,F1,90.2,percentage,Single-stream RoBERTa+CNN classifier
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 4 (p. 301),KO05,NAV (Se),RoBERTa single-stream,Precision,90.0,percentage,Single-stream RoBERTa+CNN classifier
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 4 (p. 301),KO05,NAV (Se),RoBERTa single-stream,Recall,85.71,percentage,Single-stream RoBERTa+CNN classifier
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 4 (p. 301),KO05,NAV (Se),RoBERTa single-stream,F1,87.8,percentage,Single-stream RoBERTa+CNN classifier
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 4 (p. 301),KO05,AC/PC (NA),RoBERTa dual-stream,Precision,96.87,percentage,Independent RoBERTa syntax+semantics classifiers with Boolean rule aggregation
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 4 (p. 301),KO05,AC/PC (NA),RoBERTa dual-stream,Recall,100.0,percentage,Independent RoBERTa syntax+semantics classifiers with Boolean rule aggregation
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 4 (p. 301),KO05,AC/PC (NA),RoBERTa dual-stream,F1,98.41,percentage,Independent RoBERTa syntax+semantics classifiers with Boolean rule aggregation
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 4 (p. 301),KO05,AV (Sy),RoBERTa dual-stream,Precision,91.3,percentage,Independent RoBERTa syntax+semantics classifiers with Boolean rule aggregation
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 4 (p. 301),KO05,AV (Sy),RoBERTa dual-stream,Recall,84.0,percentage,Independent RoBERTa syntax+semantics classifiers with Boolean rule aggregation
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 4 (p. 301),KO05,AV (Sy),RoBERTa dual-stream,F1,87.5,percentage,Independent RoBERTa syntax+semantics classifiers with Boolean rule aggregation
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 4 (p. 301),KO05,NAV (Se),RoBERTa dual-stream,Precision,81.82,percentage,Independent RoBERTa syntax+semantics classifiers with Boolean rule aggregation
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 4 (p. 301),KO05,NAV (Se),RoBERTa dual-stream,Recall,85.71,percentage,Independent RoBERTa syntax+semantics classifiers with Boolean rule aggregation
+Michalon & Baggio (2026) https://doi.org/10.1080/0952813X.2026.2633150,Table 4 (p. 301),KO05,NAV (Se),RoBERTa dual-stream,F1,83.72,percentage,Independent RoBERTa syntax+semantics classifiers with Boolean rule aggregation

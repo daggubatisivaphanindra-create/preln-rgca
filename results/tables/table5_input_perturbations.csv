@@ -1,0 +1,5 @@
+Perturbation Condition,ON99 Acc (%),ON99 Delta (pp),KO05 3-Label Acc (%),KO05 Delta (pp),CoLA Acc (%),CoLA Delta (pp)
+Intact PreLN-RGCA Model (Unperturbed),99.44 ± 0.97,Baseline,98.61 ± 2.36,Baseline,97.25 ± 3.57,Baseline
+Syntactic Input Perturbed (E_syn = 0),29.72 ± 7.06,-69.72 pp,25.28 ± 0.59,-73.33 pp,51.75 ± 4.72,-45.50 pp
+Semantic Input Perturbed (E_sem = 0),65.83 ± 14.27,-33.61 pp,61.39 ± 14.62,-37.22 pp,74.88 ± 0.40,-22.38 pp
+Cross-Stream Interface Suppressed (C_m = 0),72.36 ± 4.27,-27.08 pp,59.03 ± 7.81,-39.58 pp,67.50 ± 5.59,-29.75 pp
